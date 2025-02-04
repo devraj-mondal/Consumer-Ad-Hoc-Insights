@@ -7,7 +7,7 @@ business in the  APAC  region.*/
 #WHERE customer = "Atliq Exclusive" 
 #AND region="APAC";  
 
-#Subqueries#
+#Subqueries##
 #SELECT market, customer, region
 #FROM (
 # SELECT market, customer, region
