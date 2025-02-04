@@ -1,3 +1,8 @@
+/*9. Which channel helped to bring more gross sales in the fiscal year 2021
+and the percentage of contribution? The final output contains these fields,
+channel
+gross_sales_mln
+percentage*/
 #SELECT  
 #d.channel, 
 #ROUND(SUM(g.gross_price * f.sold_quantity) / 1000000, 2) AS gross_sales_mln, 
