@@ -1,3 +1,6 @@
+/* Provide the list of markets in which customer  "Atliq  Exclusive"  operates its 
+business in the  APAC  region.*/
+
 #Normal Format#
 #SELECT market,customer,region
 #From dim_customer
