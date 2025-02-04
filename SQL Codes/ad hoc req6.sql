@@ -4,6 +4,7 @@ Indian market. The final output contains these fields,
 customer_code
 customer
 average_discount_percentage*/
+
 #SELECT c.customer_code,c.customer, AVG(p.pre_invoice_discount_pct) AS Avg_Discount_Pct
 #FROM dim_customer c
 #INNER JOIN fact_pre_invoice_deductions p
